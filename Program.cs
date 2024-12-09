@@ -17,6 +17,7 @@ namespace APIDemo
 			builder.Services.AddScoped<CityRepository>();
 			builder.Services.AddScoped<TalukaRepositoy>();
 			builder.Services.AddScoped<DistrictRepository>();
+			builder.Services.AddScoped<CountryRepository>();
 			builder.Services.AddSwaggerGen();
 
 			var app = builder.Build();
