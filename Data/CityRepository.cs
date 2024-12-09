@@ -49,6 +49,10 @@ namespace APIDemo.Data
 		}
 		#endregion
 
+		#region Get City By ID
+
+		#endregion
+
 		#region Insert City
 		public bool InsertCity(CityModel cm)
 		{
